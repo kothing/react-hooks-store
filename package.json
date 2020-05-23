@@ -1,0 +1,63 @@
+{
+  "name": "react-hooks-store",
+  "version": "1.0.0",
+  "description": "An implementation that uses React Hooks to provide a multi-store global data management solution for React applications",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "test": "jest",
+    "build": "rm -rf ./lib && tsc",
+    "prepublishOnly": "npm run test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kothing/react-hooks-store.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react hooks",
+    "redux",
+    "mutiple store",
+    "global store",
+    "state",
+    "state management",
+    "middleware"
+  ],
+  "author": "friday-fj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kothing/react-hooks-store/issues"
+  },
+  "homepage": "https://github.com/kothing/react-hooks-store#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@babel/runtime": "^7.8.7",
+    "@types/jest": "^24.9.1",
+    "@types/react": "^16.9.23",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.3.6",
+    "html-webpack-plugin": "^3.2.0",
+    "immutable": "^4.0.0-rc.12",
+    "jest": "^24.9.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "peerDependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "@babel/runtime": "^7.1.0"
+  }
+}
