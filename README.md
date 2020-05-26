@@ -249,7 +249,7 @@ const Provider: <State, Action>(
 
 - ProviderProps
 
-Provider 组建接收开发者自定义的 stores 和 middlewares 作为参数
+Provider 组件接收开发者自定义的 stores 和 middlewares 作为参数
 
 ```typescript
 interface ProviderProps<State, Action> {
